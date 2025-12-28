@@ -1,4 +1,5 @@
 import React from 'react'
+import {Dock, Navbar, Welcome} from '#components';
 import { Navbar, Welcome } from '#components'
 
 const App = () => {
@@ -6,6 +7,7 @@ const App = () => {
     <main>
       <Navbar />
       <Welcome />
+      <Dock />
     </main>
   )
 }
